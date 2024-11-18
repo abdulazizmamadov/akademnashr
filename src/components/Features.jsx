@@ -1,6 +1,6 @@
 function Features() {
   return (
-    <section className="features" style={{display: "none"}}>
+    <section className="features">
       <div className="features-container container">
         <div className="features-orange-line orange-line"></div>
         <h2 className="features__heading">Nega aynan Akademnashr?</h2>

@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <>
-      <section className="hero" style={{display: "none"}}>
+      <section className="hero">
         <div className="hero-container container">
           <div className="hero__content">
             <div className="orange-line"></div>

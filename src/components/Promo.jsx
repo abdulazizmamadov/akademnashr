@@ -1,6 +1,6 @@
 function Promo() {
   return (
-    <section className="promo" style={{display: "none"}}>
+    <section className="promo">
       <div className="container">
         <div className="promo-inner">
           <div className="promo-content">
