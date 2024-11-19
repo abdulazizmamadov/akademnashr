@@ -8,6 +8,7 @@ function Header() {
             <img src="./logo.svg" alt="Site logo" />
           </a>
 
+          <div className="header-menu-wrapper">
           <ul className="header__menu">
             <li className="header__menu-item">
               <a className="header__menu-item-link active" href="">Bosh sahifa</a>
@@ -24,6 +25,7 @@ function Header() {
           </ul>
 
           <button className="btn">Ro'yxatdan o'tish</button>
+          </div>
         </div>
       </header>
     </>
