@@ -633,12 +633,18 @@ li {
 @media only screen and (max-width: 530px) {
   .header__menu {
     flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
   }
 
   .header__menu-item {
     width: 50%;
     margin-right: 0;
     text-align: center;
+  }
+
+  .header__menu-item:not(:last-child) {
+    margin-right: 0;
   }
 
   .features-orange-line {
